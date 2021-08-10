@@ -1,0 +1,419 @@
+.topFixedBanner {
+    background-image: url("../image/Topbar.jpg");
+    min-height: 500px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.topBannerOverlay {
+    position: absolute;
+    min-height: 500px;
+    min-width: 100%;
+    background: rgba(85, 59, 59, 0.7);
+}
+
+.topContent {
+    margin-top: 12rem;
+}
+
+.topTitle {
+   font-family: 'Raleway', sans-serif; 
+   font-weight: 700;
+   color: #ffffff;
+   font-size: 48px;
+}
+
+.topSubTitle {
+   font-family: 'Raleway', sans-serif; 
+   font-weight: 600;
+   color: #ffffff;
+   font-size: 22px;
+}
+
+.serviceMainTitle {
+    text-align: center;
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+   font-family: 'Raleway', sans-serif; 
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.serviceName {
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600; 
+}
+
+.serviceDescription {
+    color: #2B2B2B;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.serviceCard {
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    text-align: center;
+}
+
+.serviceCard:hover {
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+
+.serviceLogo {
+    font-size: 48px;
+    color: #0073E6;
+}
+
+.navTitle {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitle:hover {
+    text-decoration: none;
+}
+
+.navTitleScroll {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #0073E6 !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll:hover {
+    text-decoration: none;
+}
+
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,00) !important;
+}
+
+.navBackgroundScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 6px 0rgba(0,115,230,0.3);
+}
+
+.navItem {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.navItemScroll {
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #2B2B2B !important;
+    font-size: 16px;
+}
+
+.des {
+    text-align: justify;
+    font-weight: 400;
+    color: #2B2B2B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.summaryBanner {
+    background-image: url("../image/Summary.png");
+    min-height: 350px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-top: 5rem;
+}
+
+.summaryBannerOverlay {
+    position: relative;
+    min-height: 350px;
+    min-width: 100%;
+    background: rgba(85, 59, 59, 0.7);
+}
+
+.countNumber {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.countTitle {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.countSection {
+    margin-top: 14%;
+    
+}
+
+.cardTitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: #2B2B2B;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cardSubTitle {
+    font-weight: 400;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+.iconBullet {
+    color: #0073E6;
+    font-size: 15px;
+}
+
+.workCard {
+    margin-bottom: 25%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+    margin-top: 25%;
+}
+
+.projectCard {
+    border-radius: 2px;
+    border: none !important;
+    margin: 2px 2px 2px 2px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+
+.projectCard:hover {
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+
+.projectCardTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.projectCardDes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.coursesImg {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.coursesImgDes {
+    margin-top: 15px;
+}
+
+.coursesTitle {
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.coursesDes {
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.coursesDetails {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    float: left;
+}
+
+.videoCard {
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    padding: 10rem 3rem 10rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+
+.videoTitle {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color: #0073E6;
+    font-weight: 600;
+}
+
+.videoDes {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.playBtn {
+    font-size: 48px;
+    color: #0073E6;
+    cursor: pointer;
+}
+
+.circleImg {
+    margin: 0auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.footerSection {
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footerCol {
+    padding: 5%;
+    text-align: justify;
+}
+
+.socialLink {
+    text-decoration: none;
+    color: #0073E6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.socialLink:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footerLink {
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footerLink:hover {
+    color: #0073E6;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.copyRightSection {
+    padding: 20px 20px 20px 20px;
+    background-color: #0073E6;
+    text-align: center;
+}
+
+.copyRightLink {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.copyRightLink:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.topFixedPage {
+    background-image: url("../image/TopPage.jpg");
+    min-height: 280px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.topPageOverlay {
+    position: absolute;
+    min-height: 280px;
+    min-width: 100%;
+    background: rgba(85, 59, 59, 0.7);
+}
+
+.topPageContent {
+    margin-top: 9rem;
+}
+
+.topPageContentCourse {
+    margin-top: 6rem;
+}
+
+.courseFullTitle {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.courseSubTitle {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.courseSubDes {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pageTitle {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+ }
+
+.link-style {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.link-style:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
